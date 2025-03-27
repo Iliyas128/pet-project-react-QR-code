@@ -18,10 +18,12 @@ export const QrCodeScanner = ()=>{
     }
     return(
         <div className={s.container}>
+            <div className={s.scannerWrapper}>
             <Scanner
             allowMultiple={false}
             components={settings}
             onScan={scanHandler} />
+            </div>
             <p>{scanned}</p>
         </div>
     );

@@ -16,8 +16,8 @@ $font-color: #2c3e50;
     color: $font-color;
     
 
-    .scanner {
-        width: 350px;
+    .scannerWrapper {
+        width: 400px;
         border: 1px solid $border-color;
         margin-bottom: 20px;
     }
@@ -27,8 +27,8 @@ $font-color: #2c3e50;
         color: $secondary-color;
     }
     @media (max-width: 320px) {
-        .scanner {
-            width: 150px;
+        .scannerWrapper {
+            width: 270px;
         }
     }
 }
