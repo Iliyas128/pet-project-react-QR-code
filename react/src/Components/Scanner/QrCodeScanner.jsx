@@ -20,7 +20,6 @@ export const QrCodeScanner = ()=>{
         <div className={s.container}>
             <Scanner
             allowMultiple={false}
-            styles={{container:{width: 350, border: '1px solid black'}}}
             components={settings}
             onScan={scanHandler} />
             <p>{scanned}</p>

@@ -34,4 +34,27 @@ svg path:last-child {
     padding: 8px 16px;
     margin-bottom: 15px;
 }
+@media (max-width: 320px) {
+    .container {
+        gap: 10px;
+        height: 80px;
+    }
+
+    .input {
+        width: 180px;
+        height: 20px; /* Adjust input height */
+        font-size: 20px; /* Smaller font size */
+        padding: 6px 12px;
+    }
+
+    .button {
+        font-size: 16px; /* Smaller font size for buttons */
+        padding: 6px 12px;
+    }
+
+    .qrWrapper {
+        margin-bottom: 15px;
+    }
+}
+
 }

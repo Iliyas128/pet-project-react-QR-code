@@ -1,7 +1,10 @@
 body {
     background-color: #3a5199;
+    margin: 0;
+    padding: 0;
 }
-.nav{
+
+    .nav{
     
     height: 80px;
     background-color: #d5d6d2;
@@ -22,4 +25,27 @@ body {
     h1{
         margin-right: auto;
     }
+    
 }
+@media (max-width: 320px) {
+    .nav {
+        flex-direction: column; 
+        height: auto; /* Allow height to adjust based on content */
+        padding: 1px;
+        border-radius: 0;
+
+        .logo {
+            display: none;
+        }
+
+        h1 {
+            display: none;
+        }
+
+        a {
+            font-size: 16px; /* Smaller font size for links */
+            margin: 5px 0; /* Reduce spacing between links */
+        }
+    }
+}
+

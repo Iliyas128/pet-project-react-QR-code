@@ -8,7 +8,7 @@ import s from './layout.module.scss';
 
 const Layout = () =>{
     return(
-        <div>
+        <div className="bodypart">
     <Navigation />
       <Routes>
           <Route path="/" element={<QrcodeGenerator />} />
