@@ -34,15 +34,15 @@ svg path:last-child {
     padding: 8px 16px;
     margin-bottom: 15px;
 }
-@media (max-width: 320px) {
+@media (max-width:426px){
     .container {
         gap: 10px;
         height: 80px;
     }
 
     .input {
-        width: 180px;
-        height: 20px; /* Adjust input height */
+        width: 200px;
+        height: 30px; /* Adjust input height */
         font-size: 20px; /* Smaller font size */
         padding: 6px 12px;
     }
@@ -55,6 +55,18 @@ svg path:last-child {
     .qrWrapper {
         margin-bottom: 15px;
     }
+}
+@media( max-width:375px){
+    .input {        
+        height: 30px;   
+    }
+}
+
+@media (max-width: 320px) {
+    .input {
+        height: 20px; /* Adjust input height */
+    }
+
 }
 
 }
